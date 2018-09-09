@@ -1,0 +1,31 @@
+html,body,div,svg{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family: 'Fira Sans','Helvetica', sans-serif;
+}
+
+h1{
+    margin-top: 20px;
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    color: #222;
+}
+
+#map, #map svg, #map #animation {
+    width: 100%;
+    height: 600px;
+/*    background-color: #222*/
+}
+
+
+#map canvas {
+    mix-blend-mode: multiply
+}
+
+#dots-moving {
+    width: 100%;
+    height: 100%;
+}
